@@ -65,4 +65,14 @@ def home(request):
 
     return render(request, "farm/home.html", context)
 
+from django.shortcuts import render
+
+def check_box(request):
+    return render(request, "farm/click.html")  # your checkbox page
+
+def login_page(request):
+    return render(request, "farm/login.html")  # login page
+
+
+
 
